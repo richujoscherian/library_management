@@ -69,9 +69,10 @@
   }
  ],
  "grid_page_length": 50,
+ "image_field": "image",
  "link_display_mode": "Search",
  "links": [],
- "modified": "2026-10-26 02:45:00.000000",
+ "modified": "2026-10-26 03:01:54.085414",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Article",
