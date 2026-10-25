@@ -19,7 +19,6 @@ class Article(Document):
 		description: DF.TextEditor | None
 		image: DF.AttachImage | None
 		isbn: DF.Data | None
-		name: DF.Int | None
 		publisher: DF.Data | None
 		status: DF.Literal["Available", "Issued"]
 	# end: auto-generated types

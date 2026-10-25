@@ -2,7 +2,7 @@
  "actions": [],
  "allow_bulk_edit": 1,
  "allow_rename": 1,
- "autoname": "autoincrement",
+ "autoname": "ARTICLE-.####",
  "creation": "2026-10-26 00:24:50.822774",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -65,11 +65,11 @@
  "grid_page_length": 50,
  "link_display_mode": "Search",
  "links": [],
- "modified": "2026-10-26 01:05:26.527646",
+ "modified": "2026-10-26 02:02:14.084131",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Article",
- "naming_rule": "Autoincrement",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {
