@@ -7,21 +7,17 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "tab_2_tab",
   "article_name",
   "image",
+  "column_break_1",
   "author",
-  "description",
-  "isbn",
   "status",
-  "publisher"
+  "isbn",
+  "publisher",
+  "section_break_1",
+  "description"
  ],
  "fields": [
-  {
-   "fieldname": "tab_2_tab",
-   "fieldtype": "Tab Break",
-   "label": "Tab 2"
-  },
   {
    "fieldname": "article_name",
    "fieldtype": "Data",
@@ -32,22 +28,17 @@
   {
    "fieldname": "image",
    "fieldtype": "Attach Image",
+   "hidden": 1,
    "label": "Image"
+  },
+  {
+   "fieldname": "column_break_1",
+   "fieldtype": "Column Break"
   },
   {
    "fieldname": "author",
    "fieldtype": "Data",
    "label": "Author"
-  },
-  {
-   "fieldname": "description",
-   "fieldtype": "Text Editor",
-   "label": "Description"
-  },
-  {
-   "fieldname": "isbn",
-   "fieldtype": "Data",
-   "label": "ISBN"
   },
   {
    "default": "Available",
@@ -57,15 +48,30 @@
    "options": "Available\nIssued"
   },
   {
+   "fieldname": "isbn",
+   "fieldtype": "Data",
+   "label": "ISBN"
+  },
+  {
    "fieldname": "publisher",
    "fieldtype": "Data",
    "label": "Publisher"
+  },
+  {
+   "fieldname": "section_break_1",
+   "fieldtype": "Section Break",
+   "label": "Description"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text Editor",
+   "label": "Description"
   }
  ],
  "grid_page_length": 50,
  "link_display_mode": "Search",
  "links": [],
- "modified": "2026-10-26 02:02:14.084131",
+ "modified": "2026-10-26 02:45:00.000000",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Article",
