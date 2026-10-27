@@ -1,7 +1,26 @@
 {% extends "templates/web.html" %}
 
 {% block page_content %}
-<h1>{{ title |e }}</h1>
-{% endblock %}
+<div class="py-20 row">
+  <div class="col-sm-2">
+    <img alt="{{ title }}" src="{{ image }}" class="img-fluid"/>
+  </div>
+  <div class="col">
+    <h1>{{ title }}</h1>
+    <p class="lead">By {{ author }}</p>
+    <div>
+      {%- if status == 'Available' -%}
+        <span class="badge badge-success">Available</span>
+      {%- elif status == 'Issued' -%}
+        <span class="badge badge-primary">Issued</span>
+      {%- endif -%}
+    </div>
 
-<!-- this is a sample default web page template -->
+    <div class="mt-4">
+      <div>Publisher: <strong>{{ publisher }}</strong></div>
+      <div>ISBN: <strong>{{ isbn }}</strong></div>
+    </div>
+    <p class="mt-3">{{ description or "" }}</p>
+  </div>
+</div>
+{% endblock %}
