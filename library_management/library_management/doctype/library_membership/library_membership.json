@@ -39,12 +39,12 @@
    "reqd": 1
   },
   {
+   "fetch_from": "library_member.full_name",
    "fieldname": "full_name",
    "fieldtype": "Data",
    "in_list_view": 1,
    "label": "Full Name",
-   "read_only": 1,
-   "fetch_from": "library_member.full_name"
+   "read_only": 1
   },
   {
    "fieldname": "from_date",
@@ -58,7 +58,7 @@
    "fieldtype": "Date",
    "in_list_view": 1,
    "label": "To Date",
-   "reqd": 1
+   "reqd": 0
   },
   {
    "default": "0",
@@ -72,7 +72,7 @@
  "is_submittable": 1,
  "link_display_mode": "Search",
  "links": [],
- "modified": "2026-10-27 22:35:37.969070",
+ "modified": "2026-10-27 22:58:52.228442",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Library Membership",
