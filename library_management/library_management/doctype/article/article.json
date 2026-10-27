@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_bulk_edit": 1,
+ "allow_guest_to_view": 1,
  "allow_rename": 1,
  "autoname": "ARTICLE-.####",
  "creation": "2026-10-26 00:24:50.822774",
@@ -15,7 +16,8 @@
   "isbn",
   "publisher",
   "section_break_1",
-  "description"
+  "description",
+  "route"
  ],
  "fields": [
   {
@@ -66,13 +68,20 @@
    "fieldname": "description",
    "fieldtype": "Text Editor",
    "label": "Description"
+  },
+  {
+   "fieldname": "route",
+   "fieldtype": "Data",
+   "label": "Route",
+   "read_only": 1
   }
  ],
  "grid_page_length": 50,
+ "has_web_view": 1,
  "image_field": "image",
  "link_display_mode": "Search",
  "links": [],
- "modified": "2026-10-26 03:17:40.581461",
+ "modified": "2026-10-28 01:26:01.417530",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Article",
@@ -115,6 +124,7 @@
    "share": 1
   }
  ],
+ "route": "articles",
  "row_format": "Dynamic",
  "rows_threshold_for_grid_search": 20,
  "sort_field": "creation",
