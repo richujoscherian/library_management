@@ -24,7 +24,7 @@
   {
    "default": "3",
    "description": "Maximum books a member can hold at once",
-   "fieldname": "maximum_number_of_issued_articles",
+   "fieldname": "max_articles",
    "fieldtype": "Int",
    "label": "Maximum Number of Issued Articles"
   }
